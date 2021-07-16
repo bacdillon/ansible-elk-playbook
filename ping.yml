@@ -1,0 +1,7 @@
+- name: Simple Ping playbook
+  hosts: elkserver
+  tasks:
+
+    - name: running the ping module
+      ping:
+          data: Hello World 
